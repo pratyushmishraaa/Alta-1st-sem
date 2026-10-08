@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <fieldset>
+      <legend>Registrtion Form</legend>
+      <form action="/register" method="post">
+      <label for="name">Name: </label>
+      <input type="text" id="first_name" name="name" placeholder="Enter Your Name" minlength="1" maxlength="5" required> <br>
+      <label for="passoword">Password: </label>
+      <input type="password" name="password" id="password" placeholder="Enter your password"> <br>
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" placeholder="Enter your email"> <br>
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age" placeholder="Enter the age" min="1" max="100"> <br>
+      <label for="dob">Date of Birth:: </label>
+      <input type="date" name="dob" id="dob" max="08-10-2026">
+      <br>
+      <label for="Gender">Gender: </label> <br>
+      <label for="male">Male</label>
+      <input type="radio" name="male" id="male"><label for="female">Female</label>
+      <input type="radio" name="female" id="female">
+      <select name="city" id="city">
+         <option value="Hyderabad">Hyderabad</option><option value="Buxar">Buxar</option><option value="Banglore" selected>Banglore</option><option value="Mumbai">Mumbai</option><option value="Chennai">Chennai</option>
+      </select>
+      <br>
+      <input type="checkbox" name="concent" id="concent" checked>
+      <label for="concent"> Agree to Terms and Condition</label>
+      <br>
+
+      <input type="submit" value="submit">
+      <input type="reset" value="reset">
+   </form>
+   </fieldset>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates temporibus, commodi expedita dicta amet ut. Sit in cumque incidunt labore ducimus <span>Hello Reddy</span> explicabo veniam?</p>
+
+
+
+
+   
+</body>
+</html>
